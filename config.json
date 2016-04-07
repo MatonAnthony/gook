@@ -1,0 +1,14 @@
+{
+	"generic": {
+		"delay": 3600
+	},
+	"watch" : [
+		{
+			"name": "gook",
+			"repository": "git@github.com:MatonAnthony/gook.git",
+			"branch": "master",
+			"directory": "/Users/anthony/development/gook",
+			"status": "active"
+		}
+	]
+}
