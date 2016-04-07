@@ -12,12 +12,16 @@
   },
   "keywords": [
     "gook",
-	"git"
+    "git"
   ],
   "author": "Maton Anthony",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/MatonAnthony/gook/issues"
   },
-  "homepage": "https://github.com/MatonAnthony/gook#readme"
+  "homepage": "https://github.com/MatonAnthony/gook#readme",
+  "dependencies": {
+    "gitty": "^3.3.4",
+    "yargs": "^4.4.0"
+  }
 }

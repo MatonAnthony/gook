@@ -7,17 +7,17 @@ function watch() {
     var git = gitty(element.directory);
     if (element.credentials != undefined) {
       git.pull(element.repository, element.branch, element.credentials,
-			function(err) {
-        if (err) {
-          return console.log(err);
-        }
+		function(err) {
+        	if (err) {
+          		return console.log(err);
+        	}
       });
     }else {
       git.pull(element.repository, element.branch, element.username,
-			function(err) {
-        if (err) {
-          return console.log(err);
-        }
+		function(err) {
+        	if (err) {
+          	return console.log(err);
+        	}
       });
     };
   });
