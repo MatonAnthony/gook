@@ -1,7 +1,7 @@
 {
   "name": "gook",
-  "version": "0.0.0",
-  "description": "A hook to maintain a git repository up-to-date",
+  "version": "0.0.1",
+  "description": "A poller to maintain a git repository up-to-date",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,7 +11,8 @@
     "url": "git+https://github.com/MatonAnthony/gook.git"
   },
   "keywords": [
-    "gook"
+    "gook",
+	"git"
   ],
   "author": "Maton Anthony",
   "license": "MIT",

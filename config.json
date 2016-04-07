@@ -1,9 +1,10 @@
 {
 	"generic": {
-		"delay": 3600
+		"delay": 360
 	},
 	"watch" : [
 		{
+			"username": "MatonAnthony",
 			"name": "gook",
 			"repository": "git@github.com:MatonAnthony/gook.git",
 			"branch": "master",
